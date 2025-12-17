@@ -1,4 +1,5 @@
 const express = require("express");
+const fetch = require("node-fetch");
 const app = express();
 
 const USDA_BASE = "https://search.ams.usda.gov/farmersmarkets/v1/data.svc";
